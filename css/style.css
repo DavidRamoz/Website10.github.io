@@ -70,8 +70,6 @@ header .textos-header {
     text-align: center;
 }
 
-
-
 .wave {
     position: absolute;
     bottom: 0;
@@ -105,7 +103,7 @@ main .about-steps{
 }
 
 
-.sobre-nosotros .contenido-textos {
+.about-steps .contenido-textos {
     width: 48%;
 }
 
@@ -337,13 +335,13 @@ footer {
         background-position: center;
     }
 
-    .contenedor-sobre-nosotros {
+    .container-about-steps {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .sobre-nosotros .contenido-textos {
+    .about-steps .contenido-textos {
         width: 90%;
     }
 
@@ -377,21 +375,21 @@ footer {
         margin-bottom: 30px;
     }
 
-    .servicio-cont{
+    .records-cont{
         justify-content: center;
         flex-direction: column;
     }
 
-    .servicio-ind{
+    .records-ind{
         width: 100%;
         text-align: center;
     }
 
-    .servicio-ind:nth-child(1) .servicio-ind:nth-child(2){
+    .records-ind:nth-child(1) .servicio-ind:nth-child(2){
         margin-bottom: 60px;
     }
 
-    .servicio-ind img{
+    .records-ind img{
         width: 80%;
     }
 
@@ -402,11 +400,12 @@ footer {
 
     nav{
         text-align: center;
-        padding: 30px 0 0 0;
+        padding: 10px 0 0 0;
     }
 
     nav > a {
-        margin-right: 5px;
+        float: none;
+        width: 10%;
     }
 
     .textos-header h1 {
@@ -422,7 +421,7 @@ footer {
         width: 99%;
     }
 
-    .sobre-nosotros .contenido-textos{
+    .about-steps .contenido-textos{
         width: 95%;
     }
 
